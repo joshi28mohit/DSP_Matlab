@@ -1,13 +1,3 @@
-clc; clear all; close all;
-syms t z;
-x = [1 1 2 2];
-n=-1:2;
-k = sum(x.*(z.^(-n)));
-pretty(k);
-
-% Magnitude-> abs
-% Phase-> angle
-
-%Utilizing the laplace transform:
-% m=sin(t);
-% Laplace(m);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e6cb3ba8d24ad31e52b3eb700193ace4a12c30b008ab8d4116b0433f05dcc31
+size 201

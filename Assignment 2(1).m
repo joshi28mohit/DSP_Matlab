@@ -1,17 +1,3 @@
-t=0:0.001:10;
-x=2*sin(0.4*pi*t)-20*cos(0.2*pi*t);
-z=fft(x);
-
-subplot(211);
-plot(t,x);
-title('Plot of x');
-xlabel('Time');
-ylabel('Amplitude');
-grid on;
-
-subplot(212);
-plot(t,z);
-title('Plot of fourier transform');
-xlabel('Time');
-ylabel('Amplitude');
-grid on;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d9ae2407c6437c080c16dcf7c3dac790be30a6ea9553158120ec6e835b8db0a
+size 277
